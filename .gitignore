@@ -1,2 +1,14 @@
-.terraform/
+# Terraform state
 terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log
+crash.log
+
+# Terraform CLI dirs
+.terraform/
+.terraform.lock.hcl
+
+# tfvars files (optional, falls sensible Daten enthalten sein könnten)
+*.tfvars
+*.tfvars.json
